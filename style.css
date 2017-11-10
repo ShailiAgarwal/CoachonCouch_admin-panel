@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+body{margin:0;padding:0;
+    background-image: url("Images/background.jpg");}
+
+
+.login-box {
+    height: auto;
+    background: rgb(15, 15, 15);
+    text-align: center;
+    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.logo{margin-top: 50px;
+      margin-bottom:50px }
+.logo img {height:60px}
+.login-key {
+    height: auto;
+    font-size: 200px;
+    line-height: 100px;
+    background: -webkit-linear-gradient(rgb(225, 141, 47), #d8712e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.login-title {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 2px;
+    margin-top: 15px;
+    font-weight: 600;
+    color: #ECF0F5;
+}
+
+.login-form {
+    margin-top: 25px;
+    text-align: left;
+}
+
+input[type=text] {
+    background-color: rgb(46, 46, 46);
+    border: none;
+    height: 40px;
+    border-bottom: 2px solid #d8712e;
+    border-top: 0px;
+    border-radius: 2px;
+    font-weight: 500;
+
+    margin-bottom: 20px;
+    padding-left: 10px;
+    color: #ECF0F5;
+}
+
+input[type=password] {
+    background-color: rgb(46, 46, 46);
+    border: none;
+    height: 40px;
+    border-bottom: 2px solid #d8712e;
+    border-top: 0px;
+    border-radius: 2px;
+    font-weight: 500;
+
+    padding-left: 10px;
+    margin-bottom: 20px;
+    color: #ECF0F5;
+}
+
+.form-group {
+    margin-bottom: 40px;
+    outline: 0px;
+}
+
+
+label {
+    margin-bottom: 0px;
+}
+
+.form-control-label {
+    font-size: 12px;
+    color: rgb(228, 228, 228);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.btn-outline-primary {
+    color: #ffffff;
+    width: 200px;
+    height: 45px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background-color: #d8712e;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.btn-outline-primary:hover {
+    background-color: #ffffff;
+}
+
+.login-button {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.login-text {
+    text-align: center;
+    padding-left: 0px;
+    color: #A2A4A4;
+}
+
